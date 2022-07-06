@@ -84,6 +84,7 @@ public class conversationSummarizerStep2{
                         "  }]\n" +
                         "}"))
                 .build();
+        //The 'Conversation for Summarization.txt' file has been used to put the text body above. Similarly, it can be tested on 'Conversation for Summarization2.txt'
         var response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
         String collectID = response.body();
         collectID = collectID.substring(1, collectID.length()-1);
