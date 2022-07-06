@@ -31,7 +31,7 @@ public class convSummarizer {
     static void summarization(TextAnalyticsClient client) throws IOException, InterruptedException {
         List<String> documents = new ArrayList<>();
 
-        String customerText = new String(Files.readAllBytes(Paths.get("R:\\Intern Tasks\\Conversation Samples\\Customer Conversation2.txt")));
+        String customerText = new String(Files.readAllBytes(Paths.get("Customer Conversation2.txt")));
 
         documents.add(customerText);
         SyncPoller<AnalyzeActionsOperationDetail, AnalyzeActionsResultPagedIterable> syncPoller =
