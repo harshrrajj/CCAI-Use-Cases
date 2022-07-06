@@ -27,7 +27,7 @@ public class keyPhraseExtract {
     static void extractKeyTopics (TextAnalyticsClient client) throws IOException, InterruptedException
     {
         // The text to be analyzed
-        String text = new String(Files.readAllBytes(Paths.get("R:\\Sample Conversation.txt")));
+        String text = new String(Files.readAllBytes(Paths.get("Sample Conversation.txt")));
 
         System.out.printf("Key topics: %n");
         var count = 0;
