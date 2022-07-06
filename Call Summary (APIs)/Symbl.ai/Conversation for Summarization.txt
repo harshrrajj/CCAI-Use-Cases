@@ -1,0 +1,64 @@
+{
+  "name": "Business Meeting",
+  "detectPhrases": "true",
+  "enableSummary": "true",
+  "detectEntities": "true",
+  "confidenceThreshold": 0.6,
+  "messages": [{
+    "payload": {
+      "content": "Hello, you’re chatting with Rene. How may I help you?"
+    },
+    "from": {
+	"userId": "agent@abccorp.com",
+	"name": "Agent"
+    }
+  }, {
+    "payload": {
+      "content": "Hi, I tried to set up wifi connection for Smart Brew 300 espresso machine, but it didn’t work."
+    },
+    "from": {
+	"userId": "customer@example.com",
+	"name": "Customer"
+    }
+	}, {
+    "payload": {
+      "content": "I’m sorry to hear that. Let’s see what we can do to fix this issue. Could you please try the following steps for me? First, could you push the wifi connection button, hold for 3 seconds, then let me know if the power light is slowly blinking on and off every second?"
+    },
+    "from": {
+	"userId": "agent@abccorp.com",
+	"name": "Agent"
+    }
+   }, {
+    "payload": {
+      "content": "Yes, I pushed the wifi connection button, and now the power light is slowly blinking."
+    },
+    "from": {
+	"userId": "customer@example.com",
+	"name": "Customer"
+    }
+	}, {
+    "payload": {
+      "content": "Great. Thank you! Now, please check in your Contoso Coffee app. Does it prompt to ask you to connect with the machine?"
+    },
+    "from": {
+	"userId": "agent@abccorp.com",
+	"name": "Agent"
+    }
+  }, {
+    "payload": {
+      "content": "No. Nothing happened."
+    },
+    "from": {
+	"userId": "customer@example.com",
+	"name": "Customer"
+    }
+	}, {
+    "payload": {
+      "content": "I’m very sorry to hear that. Let me see if there’s another way to fix the issue. Please hold on for a minute."
+    },
+    "from": {
+	"userId": "agent@abccorp.com",
+	"name": "Agent"
+    }
+  }]
+}
