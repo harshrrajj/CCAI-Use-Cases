@@ -1,0 +1,29 @@
+Customer: Good morning. I'd like to book a flight to Toronto, please.
+Travel Agent: Certainly. Flying from Sydney?
+Customer: Yes. On Thursday, please.
+Travel Agent: Thursday the 16th, right. There are three flights that day. Do you prefer flying with any particular airline?
+Customer: I've heard that Air Canada is good, but expensive. Is there a big difference in prices between the airlines? I'll be flying business class.
+Travel Agent: Yes, there is. Air Canada is the most expensive airline at 4,000 to six thousand dollars for business class. Depending on the date of return, Qantas is 3000 to 6000 and Pacific, the Budget Airline charges between 2000 and 3500.
+Customer: Wow, that's quite a difference in prices. I'm returning on from Wednesday 22nd. So could you check the return prices for me?
+Travel Agent: Sure. Let me just enter the return date into the computer. Okay, Air Canada has tickets for $4,600. Qantas has them for $4,200. Pacific has tickets for $3,200. Those prices all include taxes and surcharges.
+Customer: Okay, before I make a decision, I would like to know the departure and arrival times, in both directions.
+Travel Agent: Of course. Let's look at Air Canada first. Leaves Sydney at 10 a.m. and arrives in Toronto at 10 a.m. local time. There's a stopover in Vancouver. The Qantas flight leaves Sydney at 1:45 and arrives at 10:15 a.m. There’s also a stopover in Vancouver but it's shorter than the Air Canada one. Pacific flies via Los Angeles and leaves at 6:15 arriving at 11:55 p.m.
+Customer: Oh! That doesn't sound very convenient. Flying by Pacific, I mean
+Travel Agent: Well, budget Airlines do offer cheaper tickets, but they are often not so advantageous in other ways.
+Customer: How about the returned flights?
+Travel Agent: Let me check. The Air Canada flight leaves Toronto at 4 o'clock and arrives at six o'clock local time. The Qantas flight leaves at 9:00 a.m. and arrives at 11 a.m. local time in Sydney. Pacific, the Pacific flight leaves Toronto at 10:25 and arrives at 6:10 local time in Sydney. Again, not very convenient timing.
+Customer: No, it isn't. Are the stopovers the same as on the outward journey?
+Travel Agent: Yes, they are.
+Customer: Well, I have a business appointment on Wednesday the 22nd, in the morning. So, unfortunately I can't take the Qantas flight. The Pacific flight times are too inconvenient. So I'll take the Air Canada flight even though it's more expensive.
+Travel Agent: Right! I'll book that for you. Shall I? Do you have your passport with you?
+Customer: Yes, I do. Here, you are.
+Travel Agent: Thank you. I'll just enter your details. Okay. Could you just check this printout? Make sure that I've spelt your name correctly and have written your passport number correctly too. Will you paying by credit card?
+Customer: Yes. I have a company credit card. Here, you are. Oh, my name is Reece with a C not with an S.
+Travel Agent: Oh, I'm sorry. I'll correct that. Double E-C-E.
+Customer: And my given names are hyphenated. Mary hyphen an with an e. Oh, you've got that. Sorry.
+Travel Agent: Okay, Mary hyphen an, joined together with hyphen. Is the passport number, okay?
+Customer: Yes, could you give me an official invoice, please? I need it for my company.
+Travel Agent: Certainly. Shall I use the company name as it appears on the credit card. ABC stocks?
+Customer: Yes.
+Travel Agent: Okay. Thank you. Could you sign here, and here? Thank you. I'll just print out your tickets.
+Customer: Thank you.
