@@ -27,7 +27,7 @@ public class sentimentAnalyzeCustomer {
     static void sentimentAnalysis(TextAnalyticsClient client) throws IOException, InterruptedException
     {
         // The text that needs to be analyzed (from the customer side)
-        String customerText = new String(Files.readAllBytes(Paths.get("R:\\Intern Tasks\\Conversation Samples\\Customer Conversation.txt")));
+        String customerText = new String(Files.readAllBytes(Paths.get("Customer Conversation.txt")));
 
         DocumentSentiment documentSentiment = client.analyzeSentiment(customerText);
         System.out.printf(
