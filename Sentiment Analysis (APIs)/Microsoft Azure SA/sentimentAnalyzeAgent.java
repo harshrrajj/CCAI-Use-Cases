@@ -27,7 +27,7 @@ public class sentimentAnalyzeAgent {
     static void sentimentAnalysis(TextAnalyticsClient client) throws IOException, InterruptedException
     {
         // The text that needs to be analyzed (from the agent side)
-        String agentText = new String(Files.readAllBytes(Paths.get("R:\\Intern Tasks\\Conversation Samples\\Agent Conversation.txt")));
+        String agentText = new String(Files.readAllBytes(Paths.get("Agent Conversation.txt")));
 
         DocumentSentiment documentSentiment = client.analyzeSentiment(agentText);
         System.out.printf(
