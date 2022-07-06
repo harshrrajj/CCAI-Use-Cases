@@ -1,0 +1,2 @@
+Hi, I tried to set up wifi connection for Smart Brew 300 espresso machine, but it didn’t work. Yes, I pushed the wifi connection button, and now 
+the power light is slowly blinking. No. Nothing happened.
