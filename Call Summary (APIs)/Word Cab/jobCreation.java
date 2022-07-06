@@ -14,7 +14,14 @@ public class jobCreation {
                         RequestBody.create(MediaType.parse("application/octet-stream"),
                                 new File("R:\\Sample conversation - 2.txt")))
                 .build();
-
+        
+        /** The parameters passed to form the API link below are: 
+            1. Source: Generic (always by default)
+            2. summary_type: Narrative (always)
+            3. summary_lens: The length of summary that you want. Keep it 3 for a concised summary.
+            4. display_name: The name that's displayed for the summarization job. (It can be changed)
+            The other parameters are needed to be the same as shown.
+        **/
         Request request = new Request.Builder()
                 .url("https://wordcab.com/api/v1/summarize?source=generic&summary_type=narrative&summary_lens=3&split_long_utterances=true&display_name=Harsh Cisco Example")
                 .method("POST", body)
