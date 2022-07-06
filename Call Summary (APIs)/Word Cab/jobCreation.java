@@ -12,7 +12,7 @@ public class jobCreation {
         RequestBody body = new MultipartBody.Builder().setType(MultipartBody.FORM)
                 .addFormDataPart("transcript","Sample conversation - 2.txt",
                         RequestBody.create(MediaType.parse("application/octet-stream"),
-                                new File("R:\\Sample conversation - 2.txt")))
+                                new File("Sample conversation - 2.txt")))
                 .build();
         
         /** The parameters passed to form the API link below are: 
